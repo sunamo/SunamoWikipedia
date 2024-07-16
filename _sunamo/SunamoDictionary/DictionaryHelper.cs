@@ -1,6 +1,5 @@
 namespace SunamoWikipedia._sunamo.SunamoDictionary;
 
-
 /// <summary>
 /// 
 /// </summary>

@@ -1,6 +1,5 @@
 namespace SunamoWikipedia;
 
-
 public class WikipediaHelper
 {
     const string Character = "Character";
