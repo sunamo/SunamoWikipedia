@@ -6,7 +6,7 @@ global using HtmlAgilityPack;
 global using System;
 global using SunamoWikipedia._sunamo.SunamoArgs;
 global using SunamoWikipedia._sunamo.SunamoHtml;
-global using SunamoWikipedia._sunamo.SunamoValues;
+global using SunamoWikipedia;
 global using SunamoWikipedia._public.SunamoHtml.Html;
 global using SunamoWikipedia._sunamo.SunamoExceptions;
 global using System.Diagnostics;
