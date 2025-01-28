@@ -28,11 +28,6 @@ internal class HtmlAgilityHelper
         return null;
     }
 
-    internal static List<HtmlNode> NodesWithAttr(object mwParserOutputNode, bool v1, string v2, string v3, string v4)
-    {
-        ThrowEx.NotImplementedMethod();
-        return null;
-    }
 
     internal static HtmlNode NodeWithAttr(object documentNode, bool v1, string v2, string v3, string v4)
     {
