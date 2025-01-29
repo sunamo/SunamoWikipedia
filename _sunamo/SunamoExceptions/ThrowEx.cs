@@ -1,11 +1,6 @@
 namespace SunamoWikipedia._sunamo.SunamoExceptions;
 internal partial class ThrowEx
 {
-    internal static bool DifferentCountInLists(string namefc, int countfc, string namesc, int countsc)
-    {
-        return ThrowIsNotNull(
-            Exceptions.DifferentCountInLists(FullNameOfExecutedCode(), namefc, countfc, namesc, countsc));
-    }
 
     internal static bool IsNullOrEmpty(string argName, string argValue)
     { return ThrowIsNotNull(Exceptions.IsNullOrWhitespace(FullNameOfExecutedCode(), argName, argValue, true)); }
