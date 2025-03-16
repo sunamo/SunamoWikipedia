@@ -1,7 +1,6 @@
 namespace SunamoWikipedia._sunamo.SunamoValues.Values;
 
-
-internal class AspxConsts
+internal class ConstsAspx
 {
     internal static readonly string startAspxComment = "<%--";
     internal static readonly string endAspxComment = "--%>";
