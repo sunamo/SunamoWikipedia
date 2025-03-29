@@ -25,7 +25,6 @@ global using SunamoWikipedia._sunamo.SunamoData.Data;
 global using SunamoWikipedia._sunamo.SunamoInterfaces.Interfaces;
 global using SunamoWikipedia._sunamo.SunamoValues.Constants;
 global using SunamoWikipedia._sunamo.SunamoValues.Values;
-
 global using ILogger = Microsoft.Extensions.Logging.ILogger;
 global using Microsoft.Extensions.Logging;
 global using NullLogger = Microsoft.Extensions.Logging.Abstractions.NullLogger;
