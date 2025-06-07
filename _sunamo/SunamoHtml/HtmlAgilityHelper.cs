@@ -4,6 +4,8 @@ namespace SunamoWikipedia._sunamo.SunamoHtml;
 /// </summary>
 internal class HtmlAgilityHelper
 {
+#pragma warning disable IDE0060
+
     internal static HtmlDocument CreateHtmlDocument()
     {
         ThrowEx.NotImplementedMethod();
@@ -34,4 +36,5 @@ internal class HtmlAgilityHelper
         ThrowEx.NotImplementedMethod();
         return null;
     }
+#pragma warning restore IDE0060
 }
