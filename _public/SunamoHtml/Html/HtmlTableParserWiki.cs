@@ -4,6 +4,7 @@ namespace SunamoWikipedia._public.SunamoHtml.Html;
 
 public class HtmlTableParserWiki
 {
+#pragma warning disable
     public HtmlTableParserWiki(object item, bool v)
     {
     }
@@ -13,4 +14,5 @@ public class HtmlTableParserWiki
         ThrowEx.NotImplementedMethod();
         return null;
     }
+#pragma warning restore
 }
