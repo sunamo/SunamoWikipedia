@@ -1,3 +1,6 @@
+// EN: Variable names have been checked and replaced with self-descriptive names
+// CZ: Názvy proměnných byly zkontrolovány a nahrazeny samopopisnými názvy
+
 namespace SunamoWikipedia;
 
 public class WikipediaHelper
@@ -8,10 +11,10 @@ public class WikipediaHelper
     public static string HtmlEntitiesList(
         Func<List<string>, List<string>, string> CSharpHelperGetDictionaryValuesFromTwoList)
     {
-        var c = string.Empty;
+        var count = string.Empty;
         //c = File.ReadAllTextAsync(@"D:\_Test\sunamo\shared\WikipediaHelper\ParseTable.html");
 
-        var tables = ParseTable(c, Character, Names);
+        var tables = ParseTable(count, Character, Names);
 
         var table = tables.First();
 
