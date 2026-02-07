@@ -1,0 +1,5 @@
+<Solution>
+  <Project Path="SunamoWikipedia.Tests\\SunamoWikipedia.Tests.csproj" />
+  <Project Path="RunnerWikipedia\\RunnerWikipedia.csproj" />
+  <Project Path="SunamoWikipedia\SunamoWikipedia.csproj" />
+</Solution>
