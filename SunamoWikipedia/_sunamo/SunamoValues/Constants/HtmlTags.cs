@@ -1,38 +1,97 @@
 namespace SunamoWikipedia._sunamo.SunamoValues.Constants;
 
 /// <summary>
-/// plural - as string
+/// Contains HTML tag name constants as strings.
 /// </summary>
 internal class HtmlTags
 {
-    internal const string img = "img";
-    internal const string span = "span";
-    internal const string title = "title";
-    internal const string div = "div";
-    internal const string style = "style";
-    internal const string link = "link";
-    internal const string table = "table";
-    internal const string td = "td";
-    internal const string tr = "tr";
-    internal const string body = "body";
-    internal const string ul = "ul";
-    internal const string ol = "ol";
-    internal const string input = "input";
-    internal const string button = "button";
-    internal const string pre = "pre";
-    internal const string label = "label";
-    internal const string a = "a";
-    internal const string hr = "hr";
-    internal const string tbody = "tbody";
-    internal static string li = "li";
-    internal static string b = "b";
-    internal static string p = "p";
-    internal static string h4 = "h4";
-    internal static string h2 = "h2";
-    internal static string article = "article";
-    internal static string svg = "svg";
-    internal static string h3 = "h3";
-    internal static string script = "script";
-    internal static string th = "th";
-    internal static string option = "option";
+    /// <summary>Image tag.</summary>
+    internal const string Img = "img";
+
+    /// <summary>Span tag.</summary>
+    internal const string Span = "span";
+
+    /// <summary>Title tag.</summary>
+    internal const string Title = "title";
+
+    /// <summary>Div tag.</summary>
+    internal const string Div = "div";
+
+    /// <summary>Style tag.</summary>
+    internal const string Style = "style";
+
+    /// <summary>Link tag.</summary>
+    internal const string Link = "link";
+
+    /// <summary>Table tag.</summary>
+    internal const string Table = "table";
+
+    /// <summary>Table cell tag.</summary>
+    internal const string Td = "td";
+
+    /// <summary>Table row tag.</summary>
+    internal const string Tr = "tr";
+
+    /// <summary>Body tag.</summary>
+    internal const string Body = "body";
+
+    /// <summary>Unordered list tag.</summary>
+    internal const string Ul = "ul";
+
+    /// <summary>Ordered list tag.</summary>
+    internal const string Ol = "ol";
+
+    /// <summary>Input tag.</summary>
+    internal const string Input = "input";
+
+    /// <summary>Button tag.</summary>
+    internal const string Button = "button";
+
+    /// <summary>Preformatted text tag.</summary>
+    internal const string Pre = "pre";
+
+    /// <summary>Label tag.</summary>
+    internal const string Label = "label";
+
+    /// <summary>Anchor tag.</summary>
+    internal const string Anchor = "a";
+
+    /// <summary>Horizontal rule tag.</summary>
+    internal const string Hr = "hr";
+
+    /// <summary>Table body tag.</summary>
+    internal const string Tbody = "tbody";
+
+    /// <summary>List item tag.</summary>
+    internal static string Li { get; set; } = "li";
+
+    /// <summary>Bold tag.</summary>
+    internal static string Bold { get; set; } = "b";
+
+    /// <summary>Paragraph tag.</summary>
+    internal static string Paragraph { get; set; } = "p";
+
+    /// <summary>Heading level 4 tag.</summary>
+    internal static string H4 { get; set; } = "h4";
+
+    /// <summary>Heading level 2 tag.</summary>
+    internal static string H2 { get; set; } = "h2";
+
+    /// <summary>Article tag.</summary>
+    internal static string Article { get; set; } = "article";
+
+    /// <summary>SVG tag.</summary>
+    internal static string Svg { get; set; } = "svg";
+
+    /// <summary>Heading level 3 tag.</summary>
+    internal static string H3 { get; set; } = "h3";
+
+    /// <summary>Script tag.</summary>
+    internal static string Script { get; set; } = "script";
+
+    /// <summary>Table header tag.</summary>
+    internal static string Th { get; set; } = "th";
+
+    /// <summary>Select option tag.</summary>
+    internal static string Option { get; set; } = "option";
 }
