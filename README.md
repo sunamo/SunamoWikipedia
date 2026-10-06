@@ -1,5 +1,10 @@
 # SunamoWikipedia
 
+## Short description
+
+Knihovna pro parsování obsahu z Wikipedie. Součást sbírky pinp s testy a Runnerem.
+
+
 Parsing content from Wikipedia
 
 ## Overview
