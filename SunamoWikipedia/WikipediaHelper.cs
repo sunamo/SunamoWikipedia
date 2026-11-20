@@ -1,10 +1,18 @@
 namespace SunamoWikipedia;
 
+/// <summary>
+/// Represents the wikipedia helper type.
+/// </summary>
 public class WikipediaHelper
 {
     private const string Character = "Character";
     private const string Names = "Names";
 
+    /// <summary>
+    /// Html entities list.
+    /// </summary>
+    /// <param name="dictionaryValuesFormatter">The dictionary values formatter.</param>
+    /// <returns>The html entities list result.</returns>
     public static string HtmlEntitiesList(
         Func<List<string>, List<string>, string> dictionaryValuesFormatter)
     {
@@ -20,6 +28,12 @@ public class WikipediaHelper
         return dictionaryValuesFormatter(names, characters);
     }
 
+    /// <summary>
+    /// Parse table.
+    /// </summary>
+    /// <param name="html">The html.</param>
+    /// <param name="columnNames">The column names.</param>
+    /// <returns>The parse table result.</returns>
     public static List<HtmlTableParserWiki> ParseTable(string html, params string[] columnNames)
     {
         var parsedTables = new List<HtmlTableParserWiki>();
@@ -58,6 +72,11 @@ public class WikipediaHelper
         return parsedTables;
     }
 
+    /// <summary>
+    /// Parse list.
+    /// </summary>
+    /// <param name="html">The html.</param>
+    /// <returns>The parse list result.</returns>
     public static List<string> ParseList(string html)
     {
         var htmlDocument = HtmlAgilityHelper.CreateHtmlDocument();
